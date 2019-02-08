@@ -22,7 +22,7 @@ public class Gopi {
 	public static void main(String[] args) throws BiffException,  InterruptedException, IOException {
 		WebDriver d= new FirefoxDriver();
 		d.get("http://www.brm.tremplintech.in/");
-		FileInputStream f= new FileInputStream("F:\\\\excel\\\\datadriven.xls\\");
+		FileInputStream f= new FileInputStream("F:\\excel\\datadriven.xls\\");
 		Workbook w = Workbook.getWorkbook(f);
 		Sheet s = w.getSheet(0);
 		int rowcount = s.getRows();

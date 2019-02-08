@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[d]]>
+    </line>
+    <line>
+      <![CDATA[Hai]]>
+    </line>
+    <line>
+      <![CDATA[BYe]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24974" started-at="2018-10-24T04:16:07Z" finished-at="2018-10-24T04:16:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24974" started-at="2018-10-24T04:16:07Z" finished-at="2018-10-24T04:16:32Z">
+      <class name="Ng.Dd2">
+        <test-method status="PASS" signature="f()[pri:0, instance:Ng.Dd2@59fa1d9b]" name="f" duration-ms="7309" started-at="2018-10-24T04:16:24Z" finished-at="2018-10-24T04:16:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hai]]>
+            </line>
+            <line>
+              <![CDATA[BYe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Ng.Dd2 -->
+      <class name="Ng1.Dd1">
+        <test-method status="PASS" signature="f()[pri:0, instance:Ng1.Dd1@14acaea5]" name="f" duration-ms="17625" started-at="2018-10-24T04:16:07Z" finished-at="2018-10-24T04:16:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[d]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Ng1.Dd1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
