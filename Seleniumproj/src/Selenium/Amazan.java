@@ -18,7 +18,7 @@ public class Amazan {
 		d.findElement(By.xpath(".//*[@id='nav-link-yourAccount']/span[1]")).click();
 			d.findElement(By.id("ap_email")).sendKeys("gnanasekar69@gmail.com");
 		d.findElement(By.id("continue")).click();
-		d.findElement(By.id("ap_password")).sendKeys("9994551183@Psk");
+		d.findElement(By.id("ap_password")).sendKeys("");
 		d.findElement(By.id("signInSubmit")).click();
 		d.findElement(By.id("twotabsearchtextbox")).sendKeys("skull headset");
 		d.findElement(By.className("nav-input")).click();

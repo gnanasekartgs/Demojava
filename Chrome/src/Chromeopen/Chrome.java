@@ -28,7 +28,7 @@ options.addArguments("--disable-notifications");
 	d.get("https://www.facebook.com");
 	d.manage().window().maximize();
 	d.findElement(By.id("email")).sendKeys("gnanasekar69");
-	d.findElement(By.id("pass")).sendKeys("9345444780@Home");
+	d.findElement(By.id("pass")).sendKeys("");
 	d.findElement(By.id("u_0_2")).click();
 	
 	String tit = d.getTitle();

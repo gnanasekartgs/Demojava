@@ -14,7 +14,7 @@ public class Gmailsent {
 d.findElement(By.id("identifierId")).sendKeys("gnanasekar5500@gmail.com");
 d.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/content/span")).click();
 Thread.sleep(1000);
-d.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("9790375500@Tgs");
+d.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("");
 d.findElement(By.xpath(".//*[@id='passwordNext']/content/span")).click();
 
 Thread.sleep(2000);
@@ -28,7 +28,7 @@ d.findElement(By.className("T-I J-J5-Ji T-I-KE L3")).click();
 
 //d.findElement(By.xpath("html/body/div[7]/div[3]/div/div[2]/div[1]/div[1]/div[1]/div[2]/div/div/div/div[1]/div/div")).click();
 Thread.sleep(1000);
-d.findElement(By.id(":6y")).sendKeys("gnanasekar69@gmail.com");
+d.findElement(By.id(":6y")).sendKeys("gl.com");
 d.findElement(By.id(":7g")).sendKeys("hai");
 d.findElement(By.id(":7q")).click();
 	}

@@ -11,10 +11,10 @@ public class Chromeopen {
 //		d.get("https://www.facebook.com/");
 		d.get("https://accounts.google.com/ServiceLogin");
 		d.manage().window().maximize();
-	d.findElement(By.id("identifierId")).sendKeys("gnanasekar5500@gmail.com");
+	d.findElement(By.id("identifierId")).sendKeys("gnanasekagmail.com");
 	d.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/content/span")).click();
 	Thread.sleep(1000);
-	d.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("9790375500@Tgs");
+	d.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("");
 	d.findElement(By.xpath(".//*[@id='passwordNext']/content/span")).click();
 
 	Thread.sleep(2000);
